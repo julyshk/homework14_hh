@@ -16,7 +16,6 @@ import static io.qameta.allure.Allure.step;
 
             step("Открыть сайт hh.ru", () -> {
                 pageHeadHunter.openPage();
-                sleep(5000);
             });
             step("Нажать кнопку 'Все сервисы'", () -> {
                 pageHeadHunter.clickButton(pageHeadHunter.buttonAllService);
@@ -32,7 +31,6 @@ import static io.qameta.allure.Allure.step;
         void checkForSectionEducationAndConsultations() {
             step("Открыть сайт hh.ru", () -> {
                 pageHeadHunter.openPage();
-                sleep(5000);
             });
             step("Нажать кнопку 'Все сервисы'", () -> {
                 pageHeadHunter.clickButton(pageHeadHunter.buttonAllService);
@@ -48,7 +46,6 @@ import static io.qameta.allure.Allure.step;
         void checkForSectionStudentsAndBeginners() {
             step("Открыть сайт hh.ru", () -> {
                 pageHeadHunter.openPage();
-                sleep(5000);
             });
             step("Нажать кнопку 'Все сервисы'", () -> {
                 pageHeadHunter.clickButton(pageHeadHunter.buttonAllService);
@@ -64,7 +61,6 @@ import static io.qameta.allure.Allure.step;
         void checkForSectionServicesInDevelopment() {
             step("Открыть сайт hh.ru", () -> {
                 pageHeadHunter.openPage();
-                sleep(5000);
             });
             step("Нажать кнопку 'Все сервисы'", () -> {
                 pageHeadHunter.clickButton(pageHeadHunter.buttonAllService);
@@ -80,7 +76,6 @@ import static io.qameta.allure.Allure.step;
         void check() {
             step("Открыть сайт hh.ru", () -> {
                 pageHeadHunter.openPage();
-                sleep(5000);
             });
             step("Нажать на виджет 'Работа из дома'", () -> {
                 pageHeadHunter.clickButton(pageHeadHunter.buttonWorkInHome);
