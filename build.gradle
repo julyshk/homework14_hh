@@ -32,22 +32,6 @@ dependencies {
             "org.slf4j:slf4j-simple:1.7.29")
 }
 
-
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
-}
-
-test {
-    useJUnitPlatform()
-}
-task remote_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("remote")
-    }
-}
-
-task remote_properties_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("remote_properties")
-    }
 }
