@@ -44,7 +44,7 @@
 ###  Локальный запуск :
 Пример командной строки:
 ```bash
-gradle clean ui_tests
+gradle clean test
 ```
 Получение отчёта:
 ```bash
