@@ -54,59 +54,57 @@ allure serve build/allure-results
 ###  Удаленный запуск (в Jenkins):
 1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/017-July_Shk-jenkins_hhru/">проект</a>
 
-![This is an image](/images/jenkins.png)
+![This is an image](/images/screens/jenkins.png)
 
 2. Выбрать пункт **Собрать с параметрами**
 3. В случае необходимости изменить параметры, выбрав значения из выпадающих списков
 4. Нажать **Собрать**
 5. Результат запуска сборки можно посмотреть в отчёте Allure
 
-![This is an image](/images/jenkins_with_params.png)
-
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/017-July_Shk-jenkins_hhru/9/allure/">Allure report</a>
 
 ###  Главное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/allure.png">
+<img title="Allure Overview Dashboard" src="images/screens/allure.png">
 </p>
 
 ###  Тесты
 
 <p align="center">
-<img title="Allure Tests" src="images/allure_2.png">
+<img title="Allure Tests" src="images/screens/allure_2.png">
 </p>
 
 
 ## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/19330">Allure TestOps</a>
 ### Общий список всех кейсов: ручных и авто
 <p align="center">
-<img title="Allure Graphics" src="images/testops_tests.png">
+<img title="Allure Graphics" src="images/screens/testops_tests.png">
 </p>
 
 ### Dashboard с общими результатами тестирования
 <p align="center">
-<img title="Allure Graphics" src="images/testops_dashboard.png">
+<img title="Allure Graphics" src="images/screens/testops_dashboard.png">
 </p>
 
 ### Пример отчёта выполнения одного из автотестов
 <p align="center">
-<img title="Allure Graphics" src="images/testops_cycle.png">
+<img title="Allure Graphics" src="images/screens/testops_cycle.png">
 </p>
 
 ## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-546">Atlassian Jira</a>
 <p align="center">
-<img title="Jira" src="images/jira.png">
+<img title="Jira" src="images/screens/jira.png">
 </p>
 
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/telegram.png" >
+<img title="Allure Overview Dashboard" src="images/screens/telegram.png" >
 </p>
 
 ## <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 <p align="center">
-<img title="Selenoid Video" src="https://user-images.githubusercontent.com/81707244/212382939-5543536f-eba7-485e-93ac-28f2c69c449e.mp4" width="250" height="153"  alt="videoUItests.mp4"> 
+<img title="Selenoid Video" src="images/video/video.mp4" width="250" height="153"  alt="videoUItests.mp4"> 
 
 </p>
