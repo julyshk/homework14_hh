@@ -92,7 +92,7 @@ allure serve build/allure-results
 <img title="Allure Graphics" src="images/screens/testops_cycle.png">
 </p>
 
-## <img src="images/logo/jira.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-546">Atlassian Jira</a>
+## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-546">Atlassian Jira</a>
 <p align="center">
 <img title="Jira" src="images/screens/jira.png">
 </p>
@@ -105,6 +105,6 @@ allure serve build/allure-results
 
 ## <img src="images/logo/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 <p align="center">
-<img title="Selenoid Video" src="images/video/video.mp4" width="250" height="153"  alt="videoUItests.mp4"> 
+<img title="Selenoid Video" src="images/video/video.mp4" width="250" height="153"  alt="video.mp4"> 
 
 </p>
