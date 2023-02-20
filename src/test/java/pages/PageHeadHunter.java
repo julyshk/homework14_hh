@@ -24,6 +24,8 @@ public class PageHeadHunter {
 
     public PageHeadHunter openPage() {
         open(baseUrl);
+        executeJavaScript("$('#fixedban').remove()");
+        executeJavaScript("$('footer').remove()");
 
         return this;
     }
