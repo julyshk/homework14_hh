@@ -13,7 +13,7 @@ public interface WebDriverConfig extends Config {
     String getBaseUrl();
 
     @Key("browser")
-    @DefaultValue("SAFARI")
+    @DefaultValue("CHROME")
     String getBrowser();
 
     @Key("version")

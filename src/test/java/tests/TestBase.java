@@ -9,12 +9,15 @@ import org.junit.jupiter.api.BeforeEach;
 import com.codeborne.selenide.WebDriverProvider;
 import pages.PageHeadHunter;
 
+import static com.codeborne.selenide.WebDriverProvider.*;
+import static config.WebDriverProvider.setConfig;
+
 public class TestBase {
     PageHeadHunter pageHeadHunter = new PageHeadHunter();
 
     @BeforeAll
     static void beforeAll() {
-        WebDriverProvider webDriverProvider = new WebDriverProvider();
+        setConfig();
     }
 
     @BeforeEach

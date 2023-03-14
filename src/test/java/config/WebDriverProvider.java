@@ -6,14 +6,38 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class WebDriverProvider {
-    private final WebDriverConfig config;
+
+    public static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+
+    public static void setConfig() {
+
+        Configuration.baseUrl = WebDriverProvider.config.getBaseUrl();
+        Configuration.browser = WebDriverProvider.config.getBrowser();
+        Configuration.browserVersion = WebDriverProvider.config.getVersion();
+        String remoteUrl = WebDriverProvider.config.getRemoteURL();
+        //if (remoteUrl != null) {
+        //    Configuration.remote = remoteUrl;
+       // }
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        Configuration.browserCapabilities = capabilities;
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+    }
+}
+
+
+
+
+/*public class WebDriverProvider {
+    private  WebDriverConfig config;
 
     public WebDriverProvider() {
         this.config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
         createWebDriver();
     }
 
-    private void createWebDriver() {
+    public void createWebDriver() {
         switch (config.getBrowser().toLowerCase()) {
             case "chrome":
                 Configuration.browser = "chrome";
@@ -37,4 +61,4 @@ public class WebDriverProvider {
         Configuration.browserCapabilities = capabilities;
     }
 
-}
+}*/
