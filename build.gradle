@@ -22,12 +22,18 @@ repositories {
 
 dependencies {
     testImplementation(
-            "com.codeborne:selenide:6.3.5",
-            "org.junit.jupiter:junit-jupiter:5.8.2",
-            "com.github.javafaker:javafaker:0.12",
-            'io.qameta.allure:allure-selenide:2.19.0',
-            'io.qameta.allure:allure-junit5:2.12.1',
-            'io.qameta.allure:allure-java-commons:2.12.1')
+            'com.codeborne:selenide:6.11.0',
+            'org.junit.jupiter:junit-jupiter:5.9.2',
+            "org.slf4j:slf4j-simple:2.0.6",
+            'org.assertj:assertj-core:3.24.2',
+            'com.codeborne:pdf-test:1.5.0',
+            'com.codeborne:xls-test:1.4.3',
+            'com.opencsv:opencsv:5.7.1',
+            'com.fasterxml.jackson.core:jackson-databind:2.14.1',
+            'io.qameta.allure:allure-selenide:2.17.3',
+            'com.github.javafaker:javafaker:1.0.2',
+            'org.aeonbits.owner:owner:1.0.12',
+            'org.seleniumhq.selenium:selenium-api:4.7.2')
     testRuntimeOnly(
             "org.slf4j:slf4j-simple:1.7.29")
 }

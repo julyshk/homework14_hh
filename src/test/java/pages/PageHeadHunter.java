@@ -4,7 +4,6 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
@@ -23,7 +22,7 @@ public class PageHeadHunter {
             chapterWorkInHome = $(".vacancy-serp-item__layout");
 
     public PageHeadHunter openPage() {
-        open(baseUrl);
+        open("https://hh.ru");
 
         return this;
     }
