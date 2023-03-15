@@ -6,10 +6,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import com.codeborne.selenide.WebDriverProvider;
 import pages.PageHeadHunter;
 
-import static com.codeborne.selenide.WebDriverProvider.*;
 import static config.WebDriverProvider.setConfig;
 
 public class TestBase {
