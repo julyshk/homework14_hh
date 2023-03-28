@@ -8,8 +8,6 @@ import static io.qameta.allure.Allure.step;
     public class TestsForHeadHunter extends TestBase {
 
         @Test
-        @Feature("hh.ru tests")
-        @Story("Проверка секции 'Сервисы для соискателей'")
         @Owner("shkrebayv")
         @DisplayName("Отображение секции 'Сервисы для соискателей' на вкладке 'Все сервисы'")
         void checkForSectionServicesForApplicants() {
@@ -27,8 +25,6 @@ import static io.qameta.allure.Allure.step;
 
         @Test
         @Owner("shkrebayv")
-        @Feature("hh.ru tests")
-        @Story("Проверка секции 'Образование и консультации'")
         @DisplayName("Отображение секции 'Образование и консультации' на вкладке 'Все сервисы'")
         void checkForSectionEducationAndConsultations() {
             step("Открыть сайт hh.ru", () -> {
@@ -44,8 +40,6 @@ import static io.qameta.allure.Allure.step;
 
         @Test
         @Owner("shkrebayv")
-        @Feature("hh.ru tests")
-        @Story("Проверка секции 'Студентам и начинающим специалистам'")
         @DisplayName("Отображение секции 'Студентам и начинающим специалистам' на вкладке 'Все сервисы'")
         void checkForSectionStudentsAndBeginners() {
             step("Открыть сайт hh.ru", () -> {
@@ -61,8 +55,6 @@ import static io.qameta.allure.Allure.step;
 
         @Test
         @Owner("shkrebayv")
-        @Feature("hh.ru tests")
-        @Story("Проверка секции 'Сервисы в разработке'")
         @DisplayName("Отображение секции 'Сервисы в разработке' на вкладке 'Все сервисы'")
         void checkForSectionServicesInDevelopment() {
             step("Открыть сайт hh.ru", () -> {
@@ -78,8 +70,6 @@ import static io.qameta.allure.Allure.step;
 
         @Test
         @Owner("shkrebayv")
-        @Feature("hh.ru tests")
-        @Story("Проверка отметки 'Можно из дома'")
         @DisplayName("Отметка 'Можно из дома' для вакансий раздела 'Работа из дома'")
         void check() {
             step("Открыть сайт hh.ru", () -> {
